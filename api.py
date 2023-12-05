@@ -1,6 +1,5 @@
 # api.py
 from fastapi import FastAPI, HTTPException
-from .crud import create_item, get_all_items, get_item_by_id
 from .db import db
 from .models import YourModel
 
